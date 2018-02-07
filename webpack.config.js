@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'inline-source-map',
-  entry: ['./app/index.jsx'],
+  entry: ['./app/index.js'],
   output: {
     path: path.join(__dirname, 'build'),
     filename: 'bundle.js',
@@ -22,20 +22,6 @@ module.exports = {
       },
       {
         test: /.js$/,
-        exclude: /node_modules/,
-        use: ['eslint-loader'],
-      },
-      {
-        test: /.jsx$/,
-        loader: 'babel-loader',
-        include: path.join(__dirname, 'app'),
-        exclude: /node_modules/,
-        query: {
-          presets: ['es2015', 'react'],
-        },
-      },
-      {
-        test: /.jsx$/,
         exclude: /node_modules/,
         use: ['eslint-loader'],
       },

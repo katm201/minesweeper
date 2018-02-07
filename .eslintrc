@@ -1,13 +1,13 @@
 {
-  rules: {
-
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
   "env": {
     "browser": true,
     "node": true
   },
   "globals": {
-    "document": false
+    "document": true
   },
   "extends": "airbnb"
 }
