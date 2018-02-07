@@ -27,6 +27,12 @@
     "webpack": "^3.10.0"
   },
   "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
     "nodemon": "^1.14.12",
     "parallelshell": "^3.0.2",
     "webpack-dev-server": "^2.11.1"
