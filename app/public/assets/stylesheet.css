@@ -104,8 +104,8 @@ body {
 .main-container {
   display: flex;
   flex-basis: 100%;
-  justify-content: space-around;
   height: 700px;
+  justify-content: space-around;
 }
 
 .board-wrapper {
