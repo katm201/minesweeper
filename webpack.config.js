@@ -28,7 +28,7 @@ module.exports = {
       {
         test: /\.css$/,
         loader: 'style-loader!css-loader',
-        include: path.join(__dirname, 'app/public/assets/styles.css'),
+        include: path.join(__dirname, 'app/public/assets/stylesheet.css'),
       },
     ],
   },
