@@ -65,11 +65,88 @@ table {
 
 /*
   ========================================
+  Custom CSS
+  ========================================
+*/
+
+body {
+  font-family: Courier, serif;
+}
+
+.app {
+  width: 100%;
+}
+
+/*
+  ========================================
+  Custom Header
+  ========================================
+*/
+
+.header {
+  align-items: center;
+  background-color: #333;
+  height: 5em;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  font-size: 3em; 
+}
+
+/*
+  ========================================
   Custom Body
   ========================================
 */
 
-#app {
-  font-family: Arial, sans-serif;
+.main-container {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-around;
+  height: 700px;
 }
 
+.board-wrapper {
+  display: flex;
+  flex-basis: 70%;
+}
+
+.create-grame-wrapper {
+  display: flex;
+  flex-basis: 30%;
+}
+
+.wrapper {
+  align-self: center;
+}
+
+/*
+  ========================================
+  Custom Grid
+  ========================================
+*/
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+/*
+  ========================================
+  Custom Footer
+  ========================================
+*/
+
+.footer {
+  align-items: center;
+  background-color: #333;
+  height: 2em;
+  justify-content: flex-start;
+}
+
+.small-info {
+  color: white;
+  font-size: 0.75em; 
+}
