@@ -9,7 +9,7 @@ const App = () => (
         Minesweeper
       </div>
     </header>
-    <Main className="row" />
+    <Main className="main row" />
     <footer className="footer row">
       <div className="small-info">
         { `${String.fromCharCode(169)} Katherine Manning` }
