@@ -1,13 +1,16 @@
 import React from 'react';
 
+import Main from './Main';
+
 const App = () => (
   <div className="app">
-    <header className="header">
+    <header className="header row">
       <div className="title">
         Minesweeper
       </div>
     </header>
-    <footer className="footer">
+    <Main className="row" />
+    <footer className="footer row">
       <div className="small-info">
         { `${String.fromCharCode(169)} Katherine Manning` }
       </div>

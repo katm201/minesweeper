@@ -86,9 +86,7 @@ body {
 .header {
   align-items: center;
   background-color: #333;
-  display: flex;
-  flex-flow: row nowrap;
-  height: 3em;
+  height: 5em;
   justify-content: center;
 }
 
@@ -103,6 +101,21 @@ body {
   ========================================
 */
 
+.main {
+  height: 700px;
+}
+
+/*
+  ========================================
+  Custom Grid
+  ========================================
+*/
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 /*
   ========================================
   Custom Footer
@@ -112,9 +125,7 @@ body {
 .footer {
   align-items: center;
   background-color: #333;
-  display: flex;
-  flex-flow: row nowrap;
-  height: 1em;
+  height: 2em;
   justify-content: flex-start;
 }
 
